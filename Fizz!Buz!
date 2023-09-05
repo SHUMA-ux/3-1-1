@@ -1,0 +1,13 @@
+<?php
+for($number=1;100>=$number;$number++){
+    if($number%5==0 && $number%3==0){
+        echo "Fizz!Buzz!"."<br>";
+    }elseif($number%3==0 && $number%5!=0){
+        echo "Fizz!"."<br>";
+    }elseif($number%3!=0 && $number%5==0){
+        echo "Buzz!"."<br>";
+    }else{
+        echo $number."<br>";
+    }
+}
+?>
